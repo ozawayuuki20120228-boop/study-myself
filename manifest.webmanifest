@@ -1,0 +1,18 @@
+{
+  "name": "鴻鵠 2.0",
+  "short_name": "鴻鵠",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "lang": "ja",
+  "description": "学習管理・参考書管理アプリ",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

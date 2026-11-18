@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#000000"><meta name="description" content="鴻鵠2.0 学習管理アプリ">
+<link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg">
+<link rel="apple-touch-icon" href="icon.svg"><link rel="stylesheet" href="style.css">
+<title>鴻鵠 2.0</title>
+</head>
+<body>
+<header class="top"><div><div class="brand">鴻鵠</div><div class="sub">STUDY MANAGEMENT</div></div><button class="iconbtn" id="exportBtn" title="データを書き出す">⇧</button></header>
+<nav class="tabs" aria-label="メインメニュー">
+<button class="tab active" data-tab="home">ホーム</button><button class="tab" data-tab="timer">タイマー</button><button class="tab" data-tab="todo">ToDo</button><button class="tab" data-tab="calendar">カレンダー</button><button class="tab" data-tab="library">参考書</button><button class="tab" data-tab="analytics">分析</button>
+</nav>
+<main id="app"></main>
+<footer>鴻鵠 2.0 <span>BLACK / WHITE EDITION</span></footer>
+<div id="modal" class="modal hidden"><div class="modalbox"><button class="close" id="closeModal">×</button><div id="modalContent"></div></div></div>
+<script src="app.js"></script>
+</body></html>
